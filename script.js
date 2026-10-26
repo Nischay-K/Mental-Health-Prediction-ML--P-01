@@ -2,7 +2,7 @@
    Configuration
    Change API_BASE_URL if your FastAPI server runs elsewhere.
    ========================================================== */
-const API_BASE_URL = 'http://127.0.0.1:2200';
+const API_BASE_URL = 'https://mental-health-prediction-ml-p-01.onrender.com';
 const PREDICT_ENDPOINT = `${API_BASE_URL}/predict`;
 const REQUEST_TIMEOUT_MS = 15000;
 
